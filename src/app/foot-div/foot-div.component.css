@@ -16,3 +16,17 @@
   justify-content: center;
   background-color: rgb(35,49,64);
 }
+.foot-div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.foot-div > div h1 {
+  margin-bottom: 30px;
+}
+
+.media-links {
+  display: flex;
+  flex-direction: row;
+}

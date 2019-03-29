@@ -4,8 +4,18 @@
   color: rgb(44,62,80);
   display: flex;
   flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+.join-head {
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  height: 75px;
+}
+p {
+  text-align: left;
 }
 .line {
   width: 250px;
