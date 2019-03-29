@@ -9,28 +9,52 @@
 * _Navigate in your preferred browser to localhost:4200 to view the code in action_
 * _Open the project in your preferred text editor to change the code._
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+## Planning
 
-## Development server
+1. Dependencies
+  * Hundreds of dependencies, standard for Angular download.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+2. Configuration
+  * Set up project as behavior-driven, logic-separated directory
+  * Follow a 'Data Down, Action Up' methodology
 
-## Code scaffolding
+3. Specs
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+  | Spec | Input | Output |
+| :-------------     | :------------- | :------------- |
+| **** |  |  |
 
-## Build
+4. UX/UI
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## Technologies Used
 
-## Running unit tests
+* _Angular CLI v1.6.5_
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* _Node v10.15.3_
 
-## Running end-to-end tests
+* _Angular v5.2.11_
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+* _Typescript v2.5.3_
 
-## Further help
+* _Webpack v3.10.0_
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### Known Bugs
+
+* _No known bugs as of 3/22/19_
+
+### Support and Contact Details
+
+_WARNING - mailto link:_
+
+[Email me for any questions](mailto:travisty12@gmail.com)
+
+_Non-mailto information:_
+
+_Email: travisty12@gmail.com_
+
+[View my work on GitHub](https://www.github.com/travisty12/)
+
+#### License
+* _This software is licensed under the MIT license_
+
+Copyright (c) 2019 **Travis Toal**
