@@ -1,0 +1,13 @@
+.nav-bar {
+  display: flex;
+  background-color: rgb(44,62,80);
+  height: 60px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.dropDownDiv {
+  background-color: rgb(44,62,80);
+  color: white;
+}
