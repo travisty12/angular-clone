@@ -22,8 +22,12 @@
 
   | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
-| **Site should contain Etsy's elements and look similar** | - | - |
-| **Site should have a dynamic view** | - | - |
+| **Site should contain PDX Hackerspace's elements and look similar** | - | - |
+| **Site contains a grid of pictures with info showing on hover, and modal showing on click** | - | - |
+| **Site contains links to social media - possible API call?** | - | - |
+| **Link div turns to dropdown button at certain width - media query** | - | - |
+
+
 
 
 4. UX/UI
