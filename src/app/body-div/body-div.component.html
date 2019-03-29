@@ -2,17 +2,11 @@
   <h1>SPACES</h1>
   <div class="line"></div>
   <div class="modal-divs">
-    <div class="modal">
+    <div *ngFor="let modal of modalList" [ngStyle]="{ 'background-image': 'url(../../assets/img/' + modal.source + '.png)' }">
+      <div class="overlay">
 
-    </div>
-    <div class="modal">
-
-    </div>
-    <div class="modal">
-
-    </div>
-    <div class="modal">
-
+      </div>
+      <h1 class="h1-modal">{{modal.overlay}}</h1>
     </div>
   </div>
 </div>
