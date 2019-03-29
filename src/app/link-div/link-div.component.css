@@ -2,10 +2,13 @@
   display: flex;
   background-color: rgb(44,62,80);
   height: 60px;
-  width: 100%;
+  width: calc(100% - 40px);
   justify-content: space-between;
   align-items: center;
   color: white;
+  padding: 0 20px 0 20px;
+  position: fixed;
+  top: 0;
 }
 .dropDownDiv {
   background-color: rgb(44,62,80);

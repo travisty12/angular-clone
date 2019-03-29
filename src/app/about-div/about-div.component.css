@@ -1,0 +1,16 @@
+.about-div {
+  background-color: rgb(24, 188, 156);
+  width: 100%;
+  height: 450px;
+  color: white;
+  padding: 100px 0 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.line {
+  width: 250px;
+  height: 3px;
+  background-color: white;
+}
