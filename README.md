@@ -25,9 +25,8 @@
 | **Site contains a grid of pictures with info showing on hover, and modal showing on click** |
 | **Site contains links to social media - possible API call?** |
 | **Link div turns to dropdown button at certain width - media query** |
-
-
-
+| **Clicking link in dropdown brings you to that section of the page** |
+| **Nav bar magnifies when user is at the top of the page** |
 
 4. UX/UI
 
