@@ -9,7 +9,7 @@ import { BodyDivComponent } from './body-div/body-div.component';
 import { AboutDivComponent } from './about-div/about-div.component';
 import { JoinDivComponent } from './join-div/join-div.component';
 import { FootDivComponent } from './foot-div/foot-div.component';
-import { ModalDivComponent } from './modal-div/modal-div.component';
+import { ModalDivComponent } from './body-div/modal-div/modal-div.component';
 
 
 @NgModule({

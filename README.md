@@ -20,13 +20,11 @@
 
 3. Specs
 
-  | Spec | Input | Output |
-| :-------------     | :------------- | :------------- |
-| **Site should contain PDX Hackerspace's elements and look similar** | - | - |
-| **Separate sections are created as separate components** | - | - |
-| **Site contains a grid of pictures with info showing on hover, and modal showing on click** | - | - |
-| **Site contains links to social media - possible API call?** | - | - |
-| **Link div turns to dropdown button at certain width - media query** | - | - |
+| **Site should contain PDX Hackerspace's elements and look similar** |
+| **Separate sections are created as separate components** |
+| **Site contains a grid of pictures with info showing on hover, and modal showing on click** |
+| **Site contains links to social media - possible API call?** |
+| **Link div turns to dropdown button at certain width - media query** |
 
 
 
@@ -66,10 +64,6 @@
 _WARNING - mailto link:_
 
 [Email me for any questions](mailto:travisty12@gmail.com)
-
-_Non-mailto information:_
-
-_Email: travisty12@gmail.com_
 
 [View my work on GitHub](https://www.github.com/travisty12/)
 
