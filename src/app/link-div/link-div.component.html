@@ -5,10 +5,9 @@
     <h1 (click)="dropDownClicked=!dropDownClicked">^</h1>
   </div>
 </div>
+<hr *ngIf="dropDownClicked">
 <div *ngIf="dropDownClicked" class="dropDownDiv">
   <h2>SPACES</h2>
-  <hr>
   <h2>ABOUT</h2>
-  <hr>
   <h2>JOIN</h2>
 </div>
