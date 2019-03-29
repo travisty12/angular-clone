@@ -1,0 +1,14 @@
+.logo-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(24,188,156);
+  color: white;
+  height: 500px;
+}
+.line {
+  width: 250px;
+  height: 3px;
+  background-color: white;
+}

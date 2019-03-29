@@ -26,6 +26,7 @@
 | **Site contains a grid of pictures with info showing on hover, and modal showing on click** | - | - |
 | **Site contains links to social media - possible API call?** | - | - |
 | **Link div turns to dropdown button at certain width - media query** | - | - |
+| **Separate sections are created as separate components** | - | - |
 
 
 
@@ -46,7 +47,7 @@
 
 ### Known Bugs
 
-* _No known bugs as of 3/22/19_
+* _No known bugs as of 3/29/19_
 
 ### Support and Contact Details
 
