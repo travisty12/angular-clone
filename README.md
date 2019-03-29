@@ -41,6 +41,14 @@
 ![pdx hackerspace site picture](src/assets/img/site-pic7.png)
 
 ## Result
+![my hackerspace site picture](src/assets/img/result-pic0.png)
+![my hackerspace site picture](src/assets/img/result-pic1.png)
+![my hackerspace site picture](src/assets/img/result-pic2.png)
+![my hackerspace site picture](src/assets/img/result-pic3.png)
+![my hackerspace site picture](src/assets/img/result-pic4.png)
+![my hackerspace site picture](src/assets/img/result-pic5.png)
+![my hackerspace site picture](src/assets/img/result-pic6.png)
+![my hackerspace site picture](src/assets/img/result-pic7.png)
 
 
 ## Future Desired Features
