@@ -1,4 +1,13 @@
 # NgClone
+> _A project using Angular to clone a website_
+
+#### By **Travis Toal**
+
+### Installation / Usage
+* _Clone this repository to your machine, and run 'npm install' to download the dependencies._
+* _Run 'ng serve' to build the server, on localhost:4200._
+* _Navigate in your preferred browser to localhost:4200 to view the code in action_
+* _Open the project in your preferred text editor to change the code._
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
