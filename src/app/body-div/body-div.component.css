@@ -28,6 +28,7 @@
 .overlay:hover {
   transition: 0.6s;
   opacity: 0.5;
+  cursor: pointer;
 }
 .h1-modal {
   opacity: 0;

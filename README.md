@@ -40,7 +40,13 @@
 ![pdx hackerspace site picture](src/assets/img/site-pic6.png)
 ![pdx hackerspace site picture](src/assets/img/site-pic7.png)
 
+## Result
 
+
+## Future Desired Features
+* _Popup screen giving information, when clicking the pictures on screen_
+* _Potential API calls to social media_
+* _Component allowing easier navigation by clicking on a section name from a dropdown meny_
 
 ## Technologies Used
 
