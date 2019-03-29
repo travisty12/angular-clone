@@ -2,13 +2,14 @@
   display: flex;
   background-color: rgb(44,62,80);
   height: 60px;
-  width: calc(100% - 40px);
+  width: calc(100% - 36px);
   justify-content: space-between;
   align-items: center;
   color: white;
-  padding: 0 20px 0 20px;
+  padding: 0 18px 0 18px;
   position: fixed;
   top: 0;
+  font-size: 0.625em;
 }
 hr {
   width: 100%;
