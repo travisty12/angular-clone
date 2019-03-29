@@ -22,7 +22,9 @@
 
   | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
-| **** |  |  |
+| **Site should contain Etsy's elements and look similar** | - | - |
+| **Site should have a dynamic view** | - | - |
+
 
 4. UX/UI
 
