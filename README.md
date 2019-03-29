@@ -23,15 +23,27 @@
   | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
 | **Site should contain PDX Hackerspace's elements and look similar** | - | - |
+| **Separate sections are created as separate components** | - | - |
 | **Site contains a grid of pictures with info showing on hover, and modal showing on click** | - | - |
 | **Site contains links to social media - possible API call?** | - | - |
 | **Link div turns to dropdown button at certain width - media query** | - | - |
-| **Separate sections are created as separate components** | - | - |
 
 
 
 
 4. UX/UI
+
+## Original Site
+![pdx hackerspace site picture](src/assets/img/site-pic0.png)
+![pdx hackerspace site picture](src/assets/img/site-pic1.png)
+![pdx hackerspace site picture](src/assets/img/site-pic2.png)
+![pdx hackerspace site picture](src/assets/img/site-pic3.png)
+![pdx hackerspace site picture](src/assets/img/site-pic4.png)
+![pdx hackerspace site picture](src/assets/img/site-pic5.png)
+![pdx hackerspace site picture](src/assets/img/site-pic6.png)
+![pdx hackerspace site picture](src/assets/img/site-pic7.png)
+
+
 
 ## Technologies Used
 
