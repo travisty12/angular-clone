@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Modal } from './modal.ts';
-import { MODALS } from './mock-modals.ts';
+import { Modal } from './modal';
+import { MODALS } from './mock-modals';
 
 @Component({
   selector: 'body-div',

@@ -1,4 +1,4 @@
-import { Modal } from './modal.ts';
+import { Modal } from './modal';
 
 export const MODALS: Modal[] = [
   { source: 'space', overlay: 'CTRL-H HACKERSPACE' },
