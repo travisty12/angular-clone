@@ -14,6 +14,11 @@ export class ModalDivComponent implements OnInit {
   id: number;
   modalToDisplay: any;
   items: string[];
+  source: string;
+  overlay: string;
+  usage: string;
+  description: string;
+
   constructor(
     private route: ActivatedRoute,
     private location: Location,
@@ -24,8 +29,15 @@ export class ModalDivComponent implements OnInit {
     this.route.params.forEach((urlParameters) => {
       this.id = parseInt(urlParameters['id']);
     });
-    this.modalToDisplay = this.pictureService.getModalsByFilename(this.id);
-    this.items = this.modalToDisplay.resources;
+    this.pictureService.getModalsByFilename(this.id).subscribe(modal => {
+      this.modalToDisplay = modal;
+      console.log(this.modalToDisplay);
+      this.items = this.modalToDisplay.resources;
+      this.source = this.modalToDisplay.source;
+      this.description = this.modalToDisplay.description;
+      this.usage = this.modalToDisplay.usage;
+      this.overlay = this.modalToDisplay.overlay;
+    });
   }
 
 }

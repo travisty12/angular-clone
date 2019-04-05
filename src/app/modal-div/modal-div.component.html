@@ -5,18 +5,19 @@
     </div>
   </div>
   <div class="title">
-    <h1>{{(modalToDisplay | async).overlay}}</h1>
-  </div>
-  <div class="line">
+    <h1>{{overlay}}</h1>
+    <div class="line">
 
+    </div>
   </div>
-  <img src="../../assets/img/{{(modalToDisplay | async).source}}.png" alt="{{(modalToDisplay | async).overlay}}">
+  <br>
+  <img src="../../assets/img/{{source}}.png" alt="{{overlay}}">
   <div class="description">
-    <h4>{{(modalToDisplay | async).description}}</h4>
+    <h4>{{description}}</h4>
   </div>
   <div class="info">
-    <p>Usage: {{(modalToDisplay | async).usage}}</p>
-    <span><p>Resources: </p><p *ngFor="let item of items">{{item}} |</p></span>
+    <p>Usage: {{usage}}</p>
+    <span><p>Resources: </p><span id="resourceSpan"><p *ngFor="let item of items">{{item}} |</p></span></span>
   </div>
   <div class="close-btn">
 
