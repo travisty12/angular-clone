@@ -12,6 +12,13 @@ export class LinkDivComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    this.width = window.innerWidth;
+    if (this.width > 900) {
+      this.wideEnough = true;
+      this.dropDownClicked = false;
+    } else {
+      this.wideEnough = false;
+    }
   }
 
   onResize(event) {

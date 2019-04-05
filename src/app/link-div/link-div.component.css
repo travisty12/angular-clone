@@ -11,10 +11,16 @@
   top: 0;
   font-size: 0.625em;
 }
+#dropDown:hover {
+  cursor: pointer;
+}
 #links {
   display: flex;
   width: 33%;
   justify-content: space-around;
+}
+h1:hover {
+  cursor: pointer;
 }
 hr {
   width: 100%;
@@ -39,4 +45,7 @@ hr {
   color: white;
   width: 100%;
   height: 150px;
+}
+.dropDownDiv h2:hover {
+  cursor: pointer;
 }
