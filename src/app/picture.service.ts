@@ -15,7 +15,9 @@ export class PictureService {
   }
 
   getModalsByFilename(filename: string) {
+    console.log(Object.keys(this.pictures['$ref']));
     for (var i = 0; i < MODALS.length - 1; i++) {
+      console.log(this.database.list('pictures/${i}'));
       if (MODALS[i].source === filename) {
         return MODALS[i];
       }
@@ -23,3 +25,4 @@ export class PictureService {
   }
 
 }
+//this.database.object('pictures/' + i + '/source'
