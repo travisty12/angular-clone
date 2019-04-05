@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpModule } from "@angular/http";
 
 
 import { AppComponent } from './app.component';
@@ -9,8 +10,9 @@ import { BodyDivComponent } from './body-div/body-div.component';
 import { AboutDivComponent } from './about-div/about-div.component';
 import { JoinDivComponent } from './join-div/join-div.component';
 import { FootDivComponent } from './foot-div/foot-div.component';
-import { ModalDivComponent } from './body-div/modal-div/modal-div.component';
+import { ModalDivComponent } from './modal-div/modal-div.component';
 import { MainComponent } from './main/main.component';
+import { routing } from './app.routing';
 
 
 @NgModule({
@@ -26,7 +28,9 @@ import { MainComponent } from './main/main.component';
     MainComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
