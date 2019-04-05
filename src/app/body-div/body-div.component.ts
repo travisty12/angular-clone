@@ -10,7 +10,7 @@ import { PictureService } from '../picture.service';
   providers: [PictureService]
 })
 export class BodyDivComponent implements OnInit {
-  modals: Modal[];
+  modals: FirebaseListObservable<any[]>;
 
   constructor(private router: Router, private pictureService: PictureService) { }
 

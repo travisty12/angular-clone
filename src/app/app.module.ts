@@ -19,7 +19,7 @@ import { routing } from './app.routing';
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
   authDomain: masterFirebaseConfig.authDomain,
-  databaseUrl: masterFirebaseConfig.databaseURL,
+  databaseURL: masterFirebaseConfig.databaseURL,
   storageBucket: masterFirebaseConfig.storageBucket
 }
 
