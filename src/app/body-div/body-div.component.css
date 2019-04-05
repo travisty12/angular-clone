@@ -13,19 +13,18 @@
   color: rgb(44,62,80);
 }
 
+.modal-divs {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: center;
+}
+
 .modal-divs div h1 {
   transition: 0.6s;
   opacity: 0;
 }
 
-.overlay {
-  top: -10px;
-  width:400px;
-  height:288px;
-  position:relative;
-  background-color:#000;
-  opacity:0;
-}
+
 .overlay:hover {
   transition: 0.6s;
   opacity: 0.5;
@@ -50,9 +49,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
-  width: 400px;
+  margin: 20px 10px 0 10px;
   height: 288px;
   background-size: contain;
   background-repeat: no-repeat;
+}
+.overlay {
+  top: -10px;
+  left: -10px;
+  width:400px;
+  height:288px;
+  position:relative;
+  background-color:#000;
+  opacity:0;
 }
