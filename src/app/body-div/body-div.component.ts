@@ -20,7 +20,6 @@ export class BodyDivComponent implements OnInit {
   }
 
   goToModal(clickedPic: Modal) {
-    console.log(clickedPic.id);
     this.router.navigate(['pictures', clickedPic.id]);
   }
 
