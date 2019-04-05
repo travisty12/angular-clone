@@ -11,8 +11,8 @@ import { PictureService } from '../picture.service';
   providers: [PictureService]
 })
 export class ModalDivComponent implements OnInit {
-  source: string;
-  modalToDisplay: Modal;
+  id: number;
+  modalToDisplay: any;
   items: string[];
   constructor(
     private route: ActivatedRoute,
@@ -22,9 +22,9 @@ export class ModalDivComponent implements OnInit {
 
   ngOnInit() {
     this.route.params.forEach((urlParameters) => {
-      this.source = urlParameters['source'];
+      this.id = parseInt(urlParameters['id']);
     });
-    this.modalToDisplay = this.pictureService.getModalsByFilename(this.source);
+    this.modalToDisplay = this.pictureService.getModalsByFilename(this.id);
     this.items = this.modalToDisplay.resources;
   }
 

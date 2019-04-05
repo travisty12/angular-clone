@@ -9,7 +9,7 @@ const appRoutes: Routes = [
     component: MainComponent
   },
   {
-    path: 'pictures/:source',
+    path: 'pictures/:id',
     component: ModalDivComponent
   }
 ];

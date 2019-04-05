@@ -14,14 +14,9 @@ export class PictureService {
     return this.pictures;
   }
 
-  getModalsByFilename(filename: string) {
-    console.log(Object.keys(this.pictures['$ref']));
-    for (var i = 0; i < MODALS.length - 1; i++) {
-      console.log(this.database.list('pictures/${i}'));
-      if (MODALS[i].source === filename) {
-        return MODALS[i];
-      }
-    }
+  getModalsByFilename(id) {
+    return this.database.object('pictures/' + id);
+    // return MODALS[id];
   }
 
 }
