@@ -33,14 +33,22 @@ export const masterFirebaseConfig = {
 
 3. Specs
 
-| **Site should contain PDX Hackerspace's elements and look similar** |
-| **Separate sections are created as separate components** |
-| **Site contains a grid of pictures with info showing on hover, and modal showing on click** |
-| **Modal page shows info, picture, restrictions, resources** |
-| **Link div turns to dropdown button at certain width - media query** |
-| **Site communicates with Firebase to access data** |
-| **Site uses routing to open modals** |
-| **Site is deployed live on firebase** |
+
+* _Site should contain PDX Hackerspace's elements and look similar_
+
+* _Separate sections are created as separate components_
+
+* _Site contains a grid of pictures with info showing on hover, and modal showing on click_
+
+* _Modal page shows info, picture, restrictions, resources_
+
+* _Link div turns to dropdown button at certain width - media query_
+
+* _Site communicates with Firebase to access data_
+
+* _Site uses routing to open modals_
+
+* _Site is deployed live on firebase_
 
 4. UX/UI
 
