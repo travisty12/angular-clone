@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Modal } from '../modal';
 import { Router } from '@angular/router';
 import { PictureService } from '../picture.service';
+import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 
 @Component({
   selector: 'body-div',

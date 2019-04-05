@@ -5,6 +5,17 @@
 
 ### Installation / Usage
 * _Clone this repository to your machine, and run 'npm install' to download the dependencies._
+* _Using your own firebase API key, create the following api-keys.ts file, located at the top level of src/app:_
+```javascript
+export const masterFirebaseConfig = {
+  apiKey: YOUR_API_KEY,
+  authDomain: "hackerspace-123.firebaseapp.com",
+  databaseURL: "https://hackerspace-123.firebaseio.com",
+  projectId: "hackerspace-123",
+  storageBucket: "hackerspace-123.appspot.com",
+  messagingSenderId: "802981317493"
+}
+```
 * _Run 'ng serve' to build the server, on localhost:4200._
 * _Navigate in your preferred browser to localhost:4200 to view the code in action_
 * _Open the project in your preferred text editor to change the code._
