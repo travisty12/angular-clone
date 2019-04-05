@@ -3,12 +3,34 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 100vh;
+  text-align: center;
+  width: 95%;
+  max-width: 750px;
+  margin: 0 auto;
 }
 .line {
   width: 250px;
   height: 3px;
   background-color: rgb(44,62,80);
+}
+img {
+  width: 100%;
+}
+#resourceSpan {
+  display: flex;
+  flex-flow: wrap row;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+#resourceSpan p {
+  display: flex;
+  flex-flow: wrap row;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.description {
 }
 .title {
   display: flex;
@@ -16,7 +38,8 @@
   align-items: center;
 }
 .top {
-  width: 95%;
+  height: 100px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;

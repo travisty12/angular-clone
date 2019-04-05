@@ -31,7 +31,6 @@ export class ModalDivComponent implements OnInit {
     });
     this.pictureService.getModalsByFilename(this.id).subscribe(modal => {
       this.modalToDisplay = modal;
-      console.log(this.modalToDisplay);
       this.items = this.modalToDisplay.resources;
       this.source = this.modalToDisplay.source;
       this.description = this.modalToDisplay.description;
