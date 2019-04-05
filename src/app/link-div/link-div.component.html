@@ -1,6 +1,6 @@
-<div class="nav-bar">
+<div (window:resize)="onResize($event)" class="nav-bar">
   <h1 id="home">PDX HACKERSPACE</h1>
-  <span *ngIf="wideEnough"><h2>SPACES</h2><h2>ABOUT</h2><h2>JOIN</h2></span>
+  <span id="links" *ngIf="wideEnough"><h2>SPACES</h2><h2>ABOUT</h2><h2>JOIN</h2></span>
   <div *ngIf="!wideEnough">
     <h1 (click)="dropDownClicked=!dropDownClicked">^</h1>
   </div>
