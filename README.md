@@ -27,6 +27,7 @@
 | **Link div turns to dropdown button at certain width - media query** |
 | **Clicking link in dropdown brings you to that section of the page** |
 | **Nav bar magnifies when user is at the top of the page** |
+| **Site communicates with Firebase to access data** |
 
 4. UX/UI
 

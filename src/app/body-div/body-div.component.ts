@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
-import { Modal } from './modal';
-import { MODALS } from './mock-modals';
+import { PictureService } from '../picture.service';
 
 @Component({
   selector: 'body-div',
   templateUrl: './body-div.component.html',
-  styleUrls: ['./body-div.component.css']
+  styleUrls: ['./body-div.component.css'],
+  providers: [PictureService]
 })
 export class BodyDivComponent implements OnInit {
-  modalList = MODALS;
-  constructor() { }
+  // modalList = MODALS;
+  constructor(private pictureService: PictureService) { }
 
   ngOnInit() {
   }

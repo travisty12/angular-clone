@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class LinkDivComponent implements OnInit {
   width;
   wideEnough;
+  dropDownClicked;
   constructor() { }
 
   ngOnInit() {
@@ -17,6 +18,7 @@ export class LinkDivComponent implements OnInit {
     this.width = event.target.innerWidth;
     if (this.width > 900) {
       this.wideEnough = true;
+      this.dropDownClicked = false;
     } else {
       this.wideEnough = false;
     }
