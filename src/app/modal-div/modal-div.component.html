@@ -17,7 +17,7 @@
   </div>
   <div class="info">
     <p>Usage: <strong>{{usage}}</strong></p>
-    <div id="resourceSpan"><p>Resources: </p><p *ngFor="let item of items"><strong>{{item}}</strong> | </p></div>
+    <div id="resourceSpan"><p>Resources: </p><span class="holder" *ngFor="let item of items"><p><strong>{{item}}</strong></p><p> | </p></span></div>
   </div>
   <div class="close-btn">
     <div routerLink="" id="close">Close</div>
