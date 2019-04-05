@@ -40,6 +40,7 @@ export const masterFirebaseConfig = {
 | **Nav bar magnifies when user is at the top of the page** |
 | **Site communicates with Firebase to access data** |
 | **Site uses routing to open modals** |
+| **Site is deployed live on firebase** |
 
 4. UX/UI
 
