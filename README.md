@@ -28,6 +28,7 @@
 | **Clicking link in dropdown brings you to that section of the page** |
 | **Nav bar magnifies when user is at the top of the page** |
 | **Site communicates with Firebase to access data** |
+| **Site uses routing to open modals** |
 
 4. UX/UI
 

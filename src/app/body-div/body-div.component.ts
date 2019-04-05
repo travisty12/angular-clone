@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Modal } from '../modal';
+import { Router } from '@angular/router';
 import { PictureService } from '../picture.service';
 
 @Component({
@@ -8,10 +10,14 @@ import { PictureService } from '../picture.service';
   providers: [PictureService]
 })
 export class BodyDivComponent implements OnInit {
-  // modalList = MODALS;
-  constructor(private pictureService: PictureService) { }
+  modals: Modal[];
+
+  constructor(private router: Router, private pictureService: PictureService) { }
 
   ngOnInit() {
+    this.modals = this.pictureService.getModals();
   }
+
+
 
 }
