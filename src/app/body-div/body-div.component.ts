@@ -19,6 +19,9 @@ export class BodyDivComponent implements OnInit {
     this.modals = this.pictureService.getModals();
   }
 
+  goToModal(clickedPic: Modal) {
+    this.router.navigate(['pictures', clickedPic.source]);
+  }
 
 
 }

@@ -14,4 +14,12 @@ export class PictureService {
     return this.pictures;
   }
 
+  getModalsByFilename(filename: string) {
+    for (var i = 0; i < MODALS.length - 1; i++) {
+      if (MODALS[i].source === filename) {
+        return MODALS[i];
+      }
+    }
+  }
+
 }

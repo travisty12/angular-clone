@@ -2,7 +2,7 @@
   <h1>SPACES</h1>
   <div class="line"></div>
   <div class="modal-divs">
-    <div *ngFor="let modal of modals | async" [ngStyle]="{ 'background-image': 'url(../../assets/img/' + modal.source + '.png)' }">
+    <div *ngFor="let modal of modals | async" [ngStyle]="{ 'background-image': 'url(../../assets/img/' + modal.source + '.png)' }" (click)="goToModal(modal)">
       <div class="overlay">
 
       </div>
