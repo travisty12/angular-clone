@@ -13,6 +13,7 @@ import { PictureService } from '../picture.service';
 export class ModalDivComponent implements OnInit {
   source: string;
   modalToDisplay: Modal;
+  items: string[];
   constructor(
     private route: ActivatedRoute,
     private location: Location,
@@ -24,6 +25,7 @@ export class ModalDivComponent implements OnInit {
       this.source = urlParameters['source'];
     });
     this.modalToDisplay = this.pictureService.getModalsByFilename(this.source);
+    this.items = this.modalToDisplay.resources;
   }
 
 }

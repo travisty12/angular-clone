@@ -12,10 +12,11 @@
   </div>
   <img src="../../assets/img/{{modalToDisplay.source}}.png" alt="{{modalToDisplay.overlay}}">
   <div class="description">
-
+    <h4>{{modalToDisplay.description}}</h4>
   </div>
   <div class="info">
-
+    <p>Usage: {{modalToDisplay.usage}}</p>
+    <span><p>Resources: </p><p *ngFor="let item of items">{{item}} |</p></span>
   </div>
   <div class="close-btn">
 
