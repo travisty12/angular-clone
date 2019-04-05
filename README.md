@@ -94,9 +94,13 @@ export const masterFirebaseConfig = {
 
 * _Webpack v3.10.0_
 
+* _Firebase, AngularFire_
+
+* _Routing_
+
 ### Known Bugs
 
-* _No known bugs as of 3/29/19_
+* _Second-to-last picture is oddly-sized and won't conform to the size I set. Weird._
 
 ### Support and Contact Details
 
