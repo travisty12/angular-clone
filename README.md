@@ -4,6 +4,8 @@
 #### By **Travis Toal**
 
 ### Installation / Usage
+* _Find live site [here](https://hackerspace-123.firebaseapp.com/)_
+
 * _Clone this repository to your machine, and run 'npm install' to download the dependencies._
 * _Using your own firebase API key, create the following api-keys.ts file, located at the top level of src/app:_
 ```javascript
@@ -34,10 +36,8 @@ export const masterFirebaseConfig = {
 | **Site should contain PDX Hackerspace's elements and look similar** |
 | **Separate sections are created as separate components** |
 | **Site contains a grid of pictures with info showing on hover, and modal showing on click** |
-| **Site contains links to social media - possible API call?** |
+| **Modal page shows info, picture, restrictions, resources** |
 | **Link div turns to dropdown button at certain width - media query** |
-| **Clicking link in dropdown brings you to that section of the page** |
-| **Nav bar magnifies when user is at the top of the page** |
 | **Site communicates with Firebase to access data** |
 | **Site uses routing to open modals** |
 | **Site is deployed live on firebase** |
@@ -54,6 +54,9 @@ export const masterFirebaseConfig = {
 ![pdx hackerspace site picture](src/assets/img/site-pic6.png)
 ![pdx hackerspace site picture](src/assets/img/site-pic7.png)
 
+![site modal pic](src/assets/img/modal0.png)
+![site modal pic](src/assets/img/modal1.png)
+
 ## Result
 ![my hackerspace site picture](src/assets/img/result-pic0.png)
 ![my hackerspace site picture](src/assets/img/result-pic1.png)
@@ -64,11 +67,12 @@ export const masterFirebaseConfig = {
 ![my hackerspace site picture](src/assets/img/result-pic6.png)
 ![my hackerspace site picture](src/assets/img/result-pic7.png)
 
+![my modal pic](src/assets/img/result-modal0.png)
+![my modal pic](src/assets/img/result-modal1.png)
 
 ## Future Desired Features
-* _Popup screen giving information, when clicking the pictures on screen_
 * _Potential API calls to social media_
-* _Component allowing easier navigation by clicking on a section name from a dropdown meny_
+* _Component allowing easier navigation by clicking on a section name from a dropdown menu_
 
 ## Technologies Used
 
