@@ -1,12 +1,12 @@
 { "pictures": [
-    { "source": "space", "overlay": "CTRL-H HACKERSPACE" },
-    { "source": "woodshop", "overlay": "WOOD SHOP" },
-    { "source": "backlot", "overlay": "THE BACK LOT" },
-    { "source": "electronics", "overlay": "ELECTRONICS LAB" },
-    { "source": "secret", "overlay": "TOP SECRET LAB" },
-    { "source": "craft", "overlay": "CRAFT LAB" },
-    { "source": "chat", "overlay": "IRC CHAT" },
-    { "source": "calendar", "overlay": "CALENDAR" },
-    { "source": "donate", "overlay": "DONATION PAGE" }
+    { "source": "space", "overlay": "CTRL-H HACKERSPACE", "description" : "", "Usage" : "", "Resources" : ["","","","",""] },
+    { "source": "woodshop", "overlay": "WOOD SHOP", "description" : "", "Usage" : "", "Resources" : ["","","","",""] },
+    { "source": "backlot", "overlay": "THE BACK LOT", "description" : "", "Usage" : "", "Resources" : ["","","","",""] },
+    { "source": "electronics", "overlay": "ELECTRONICS LAB", "description" : "", "Usage" : "", "Resources" : ["","","","",""] },
+    { "source": "secret", "overlay": "TOP SECRET LAB", "description" : "", "Usage" : "", "Resources" : ["","","","",""] },
+    { "source": "craft", "overlay": "CRAFT LAB", "description" : "", "Usage" : "", "Resources" : ["","","","",""] },
+    { "source": "chat", "overlay": "IRC CHAT", "description" : "", "Usage" : "", "Resources" : ["","","","",""] },
+    { "source": "calendar", "overlay": "CALENDAR", "description" : "", "Usage" : "", "Resources" : ["","","","",""] },
+    { "source": "donate", "overlay": "DONATION PAGE", "description" : "", "Usage" : "", "Resources" : ["","","","",""] }
   ]
 }
